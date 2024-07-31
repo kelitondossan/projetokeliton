@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Divertido de Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Divertido de Números</h1>
+        <label for="realNumber">Digite um número real:</label>
+        <input type="text" id="realNumber" placeholder="Ex: 123" />
+        <button onclick="convertToRoman()">Converter para Romano</button>
+
+        <label for="romanNumber">Digite um número romano:</label>
+        <input type="text" id="romanNumber" placeholder="Ex: CXXIII" />
+        <button onclick="convertToReal()">Converter para Real</button>
+
+        <div id="resultDiv">
+            <h3>Resultado:</h3>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
